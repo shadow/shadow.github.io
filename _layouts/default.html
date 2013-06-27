@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <!-- syntax highlighting CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+    <!-- Custom CSS -->
+    <link href="/css/main.css" rel="stylesheet" type="text/css">
+    <!-- Imported Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Chivo:900" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700,200" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="page">
+      <div class="top">{% include header.ext %}</div>
+      <div class="main">{{ content }}</div>
+      <div class="bottom">{% include footer.ext %}</div>
+    </div>
+  </body>
+</html>

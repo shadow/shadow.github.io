@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+
+<div class="meta">
+  {{ page.date | date_to_string }}
+  by {{ page.author }}
+  in {{ page.categories }} {{ page.tags }}
+</div>
+
+<div class="post">
+{{ content }}
+</div>
