@@ -48,7 +48,6 @@ a:hover, a:active {
 /* main page containers */
 
 .page {
-  text-align: justify;
   width: 600px;
   margin: 3em auto 2em;
   background-color: #ffffff;
@@ -56,6 +55,10 @@ a:hover, a:active {
 }
 
 /* top content header */
+
+.nametag {
+  float: left;
+}
 
 .name {
   font-family: 'Chivo', 'Titillium Web', sans-serif;
@@ -71,6 +74,15 @@ a:hover, a:active {
   color: #aaa;
   font-weight: normal;
   line-height: 1.3;
+}
+
+.logo {
+  float: right;
+}
+
+.clear {
+  clear: both;
+  float: none;
 }
 
 /* navigation bar */
@@ -108,15 +120,20 @@ a:hover, a:active {
   background-color:#ee7400;
 }
 
+.logo {
+  float: right;
+}
+
+/* nav - highlight active tab */
+
+.home .nav-home a, .about .nav-about a, .design .nav-design a, .download .nav-download a, .contact .nav-contact a {
+  background-color:#ee7400;
+}
+
 /* news items listed on the home page */
 
 ul.news {
   list-style-type: none;
-}
-
-ul.news span {
-  color: #aaa;
-  font-style: monospace;
 }
 
 .excerpt {
@@ -125,7 +142,7 @@ ul.news span {
 
 /* post pages */
 
-.meta {
+.meta, ul.news span {
   margin: 0;
   color: #aaa;
   font-style: monospace;
@@ -135,7 +152,7 @@ ul.news span {
   margin-left: 40px;
 }
 
-.post pre code {
+.post pre code, .news code {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;

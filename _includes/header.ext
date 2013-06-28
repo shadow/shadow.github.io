@@ -1,11 +1,15 @@
-<div class="name">{{ site.name }}</div>
-<div class="tagline">{{ site.tagline }}</div>
+<div class="nametag">
+  <div class="name">{{ site.name }}</div>
+  <div class="tagline">{{ site.tagline }}</div>
+</div>
+<div class="logo"><img title="Shadow Logo" src="/assets/shadow.png" alt="" width="130"/></div>
+<div class="clear"></div>
 <div class="nav">
   <ul>
-    <li><a href="/">home</a></li>
-    <li><a href="/about">about</a></li>
-    <li><a href="/design">design</a></li>
-    <li><a href="/download">download</a></li>
-    <li><a href="/contact">contact</a></li>
+    <li class="nav-home"><a href="/">home</a></li>
+    <li class="nav-about"><a href="/about">about</a></li>
+    <li class="nav-design"><a href="/design">design</a></li>
+    <li class="nav-download"><a href="/download">download</a></li>
+    <li class="nav-contact"><a href="/contact">contact</a></li>
   </ul>
 </div>
