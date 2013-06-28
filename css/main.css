@@ -126,7 +126,7 @@ a:hover, a:active {
 
 /* nav - highlight active tab */
 
-.home .nav-home a, .about .nav-about a, .design .nav-design a, .download .nav-download a, .contact .nav-contact a {
+.home .nav-home a, .about .nav-about a, .design .nav-design a, .download .nav-download a, .support .nav-support a {
   background-color:#ee7400;
 }
 
