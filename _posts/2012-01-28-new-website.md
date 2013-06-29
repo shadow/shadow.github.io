@@ -1,14 +1,8 @@
 ---
 layout: post
 title: New Website!
-tags:
-- News
-- Status
-status: publish
-type: post
-published: true
-meta:
-  _edit_last: '1'
-  sfw_comment_form_password: wIFqTxKMKMiw
+author: robgjansen
+tags: news status
 ---
+
 Welcome to the home of the Shadow Simulator. Please be patient as new content is added :)

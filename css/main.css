@@ -133,12 +133,18 @@ a:hover, a:active {
 
 /* news items listed on the home page */
 
+span.morenews {
+  font-size: 18px;
+  font-weight: normal;
+}
+
 ul.news {
   list-style-type: none;
 }
 
 .excerpt {
   margin-left: 1.4em;
+  margin-bottom: 1.5em;
 }
 
 /* post pages */
@@ -157,6 +163,7 @@ ul.news {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 .4em;
+  font-size: 16px;
 }
 
 .post code {
