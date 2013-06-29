@@ -5,8 +5,10 @@ layout: default
 
 <div class="meta">
   {{ page.date | date_to_string }}
-  by {{ page.author }}
-  in {{ page.categories }} {{ page.tags }}
+  by {{ page.author }} in 
+  {% for tag in page.tags %}
+    {{ tag }}&nbsp;
+  {% endfor %}
 </div>
 
 <div class="post">

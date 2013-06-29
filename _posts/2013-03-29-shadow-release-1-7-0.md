@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Shadow Release 1.7.0"
-author: "robgjansen"
-categories: software
-tags: release
+title:  Shadow Release 1.7.0
+author: robgjansen
+tags: software release
 ---
 
 I just tagged `Shadow v1.7.0`, and added a link on [the download page][dlpage].
