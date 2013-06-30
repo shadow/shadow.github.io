@@ -6,7 +6,7 @@ class: download
 Development
 ===========
 
-git clone [https://github.com/shadow/shadow.git][gitrepo] &raquo; \[[setup instructions][wiki]\]\[[issues][issues]\]  
+git clone [https://github.com/shadow/shadow.git][gitrepo] &raquo; \[[wiki][wiki]\]\[[issues][issues]\]  
 [master][gitmaster] &raquo; development branch (bleeding edge)  
 [release][gitrelease] &raquo; stable branch (tracks most recent release)  
 <a href="https://github.com/shadow/shadow.git" target="_blank"><img title="clone git repository from github" src="/assets/git-download-button.png" /></a>
