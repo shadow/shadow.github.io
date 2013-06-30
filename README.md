@@ -3,10 +3,10 @@ shadow.github.io
 
 This repository holds the Shadow project website.
 
-To run it locally:
+To development it locally:
 
 ```bash
-gem install jekyll
-jekyll serve --watch
+gem install jekyll kramdown
+jekyll serve --watch --trace
 ```
 

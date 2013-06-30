@@ -133,31 +133,30 @@ pre, code {
   background-color: #ee7400;
 }
 
-/* pages */
-
-.news ul {
-  list-style-type: none;
-}
-
-/* subscribe and archive links */
+/* subscribe and archive links on home page */
 
 span.morenews {
   font-size: 18px;
   font-weight: normal;
 }
 
-/* news posts */
+/* news posts, pages */
 
-.meta, .news em, .home em, .download em {
+.posts ul, .posts ol, .pages ul, .pages ol {
+  margin-left: 40px;
+}
+
+.meta, .pages em {
   margin: 0;
-  color: #aaa;
+  color: #888;
   font-size: 16px;
   font-weight: normal;
   font-style: normal;
 }
 
-.posts ul, .posts ol {
-  margin-left: 40px;
+.news ul, .news ol {
+  margin-left: 0px;
+  list-style-type: none;
 }
 
 /* other stuff */
@@ -165,11 +164,5 @@ span.morenews {
 .torinabox {
   clear: right;
   float: right;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-.just {
-  text-align: justify;
 }
 
