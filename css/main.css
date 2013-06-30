@@ -46,9 +46,17 @@ a:hover, a:active {
   color: #ec9f56;
 }
 
-/* main page containers */
+pre, code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+  font-size: 16px;
+  font-family: monospace;
+}
 
-.page {
+/* main site container */
+
+.site {
   width: 600px;
   margin: 3em auto 2em;
   background-color: #ffffff;
@@ -125,49 +133,31 @@ a:hover, a:active {
   background-color: #ee7400;
 }
 
-/* news items listed on the home page */
+/* pages */
+
+.news ul {
+  list-style-type: none;
+}
+
+/* subscribe and archive links */
 
 span.morenews {
   font-size: 18px;
   font-weight: normal;
 }
 
-ul.news {
-  list-style-type: none;
-}
+/* news posts */
 
-.excerpt {
-  margin-left: 1.4em;
-  margin-bottom: 1.5em;
-}
-
-/* post pages */
-
-.meta, ul.news span {
+.meta, .news em, .home em {
   margin: 0;
   color: #aaa;
-  font-style: monospace;
-}
-
-.post ul, .post ol {
-  margin-left: 40px;
-}
-
-.post pre code, .news code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
   font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
 }
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-.post pre code {
-  border: none;
+.posts ul, .posts ol {
+  margin-left: 40px;
 }
 
 /* other stuff */
