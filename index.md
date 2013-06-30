@@ -15,12 +15,12 @@ with the efficiency and control of
 achieving the best of both approaches. 
 [Download Shadow now!](/download)
 
-Latest News <span class="morenews">[subscribe][<a href="/news">browse archives</a>]</span>
+Latest News <span class="morenews">[<a href="/atom.xml">subscribe</a>][<a href="/news">browse archives</a>]</span>
 ===========
 
-{% for post in site.posts limit: 5 %}
+{% for post in site.posts limit: 3 %}
   &raquo; **{{ post.title }}** _on {{ post.date | date_to_string }}_
-  {{ post.excerpt }} \[[read more]({{ post.url }})\]
+  {{ post.content }}
 {% endfor %}
 
 [wikidiscrete]: http://wikipedia.org/wiki/Discrete_event_simulation
