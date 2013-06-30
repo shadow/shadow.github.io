@@ -4,12 +4,3 @@
 </div>
 <div class="logo"><img title="Shadow Logo" src="/assets/shadow.png" alt="" width="130"/></div>
 <div class="clear"></div>
-<div class="nav">
-  <ul>
-    <li class="nav-home"><a href="/">home</a></li>
-    <li class="nav-about"><a href="/about">about</a></li>
-    <li class="nav-design"><a href="/design">design</a></li>
-    <li class="nav-download"><a href="/download">download</a></li>
-    <li class="nav-support"><a href="/support">support</a></li>
-  </ul>
-</div>

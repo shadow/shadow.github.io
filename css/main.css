@@ -118,17 +118,11 @@ a:hover, a:active {
 }
 
 .nav a:hover, .nav a:active {
-  background-color:#ee7400;
+  background-color: #ee7400;
 }
 
-.logo {
-  float: right;
-}
-
-/* nav - highlight active tab */
-
-.home .nav-home a, .about .nav-about a, .design .nav-design a, .download .nav-download a, .support .nav-support a {
-  background-color:#ee7400;
+.nav .navactive a {
+  background-color: #ee7400;
 }
 
 /* news items listed on the home page */

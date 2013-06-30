@@ -1,3 +1,22 @@
+---
+navigation:
+ - text: home
+   title: Shadow - Home
+   url: /
+ - text: about
+   title: Shadow - About
+   url: /about/
+ - text: design
+   title: Shadow - Design
+   url: /design/
+ - text: download
+   title: Shadow - Download
+   url: /download/
+ - text: support
+   title: Shadow - Support
+   url: /support/
+---
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,6 +36,7 @@
   <body>
     <div class="page">
       <div class="top">{% include header.ext %}</div>
+      <div class="top">{% include navigation.ext %}</div>
       <div class="main">{{ content }}</div>
       <div class="bottom">{% include footer.ext %}</div>
     </div>
