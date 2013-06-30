@@ -148,7 +148,7 @@ span.morenews {
 
 /* news posts */
 
-.meta, .news em, .home em {
+.meta, .news em, .home em, .download em {
   margin: 0;
   color: #aaa;
   font-size: 16px;
