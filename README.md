@@ -6,7 +6,7 @@ This repository holds the Shadow project website.
 To development it locally:
 
 ```bash
-gem install jekyll kramdown
+gem install jekyll redcarpet
 jekyll serve --watch --trace
 ```
 

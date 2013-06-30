@@ -24,5 +24,5 @@ Papers
 People
 ------
 
-[Rob Jansen](http://cs.umn.edu/~jansen){: target="_blank"} , [John Geddes](http://cs.umn.edu/~geddes){: target="_blank"} , [Nicholas Hopper](http://cs.umn.edu/~hopper){: target="_blank"} 
+[Rob Jansen](http://cs.umn.edu/~jansen) , [John Geddes](http://cs.umn.edu/~geddes) , [Nicholas Hopper](http://cs.umn.edu/~hopper) 
 

@@ -4,16 +4,7 @@ title: The Shadow Simulator
 class: home
 ---
 
-Shadow is a unique, open source 
-[discrete-event network simulator][wikidiscrete]{: target="_blank"} 
-that runs real-life applications like 
-[Tor][torweb]{: target="_blank"}. 
-Shadow combines the accuracy of 
-[emulation][wikiemulation]{: target="_blank"} 
-with the efficiency and control of 
-[simulation][wikisimulation]{: target="_blank"}, 
-achieving the best of both approaches. 
-[Download Shadow now!](/download)
+Shadow is a unique, open source [discrete-event network simulator][wikidiscrete] that runs real-life applications like [Tor][torweb]. Shadow combines the accuracy of [emulation][wikiemulation] with the efficiency and control of [simulation][wikisimulation], achieving the best of both approaches. [Download Shadow now!](/download)
 
 Latest News <span class="morenews">[<a href="/atom.xml">subscribe</a>][<a href="/news">browse archives</a>]</span>
 ===========

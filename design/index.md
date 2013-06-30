@@ -9,7 +9,7 @@ Shadow does the following:
  * natively executes **real applications** like Tor
  * provides efficient, accurate, and **controlled** experiments
  + models network topology, latency, and bandwidth
- + models the Tor network using [Tor metrics][tormetrics]{: target="_blank"} 
+ + models the Tor network using [Tor metrics][tormetrics] 
  + runs without root on a single Linux box, or [in the cloud][wiki-ec2]
  + simulates multiple virtual nodes in virtual time
  + simulates network, crypto, CPU processing delays
@@ -18,7 +18,7 @@ Shadow does the following:
 Real Applications as Shadow Plug-ins
 ====================================
 
-Shadow is a discrete-event simulator that runs **real applications** like [Tor][tor]{: target="_blank"} . Shadow links to real application software and **natively executes the application code** during simulation, providing faithful experiments and accurate results. Shadow models and runs distributed networks using these applications on a single Linux machine, easing experiment management while keeping the focus on the results.
+Shadow is a discrete-event simulator that runs **real applications** like [Tor][tor] . Shadow links to real application software and **natively executes the application code** during simulation, providing faithful experiments and accurate results. Shadow models and runs distributed networks using these applications on a single Linux machine, easing experiment management while keeping the focus on the results.
 
 What are Plug-ins?
 ------------------
@@ -28,7 +28,7 @@ Plug-ins are library shims that are linked to real applications. Shadow dynamica
 What is Scallion?
 -----------------
 
-Scallion is a Shadow plug-in for simulating the [Tor][tor]{: target="_blank"}  anonymity network. Scallion integrates Tor into Shadow by wrapping the [Tor source code][torsource]{: target="_blank"}  with the necessary hooks that allow it to communicate with the Shadow simulator, thereby leveraging Shadow's unique functionality to allow rapid prototyping and experimentation of Tor. Scallion also contains scripts that assist in analyzing results, generating Tor topologies, and running experiments using the generated topologies.
+Scallion is a Shadow plug-in for simulating the [Tor][tor]  anonymity network. Scallion integrates Tor into Shadow by wrapping the [Tor source code][torsource]  with the necessary hooks that allow it to communicate with the Shadow simulator, thereby leveraging Shadow's unique functionality to allow rapid prototyping and experimentation of Tor. Scallion also contains scripts that assist in analyzing results, generating Tor topologies, and running experiments using the generated topologies.
 
 Visit [the Scallion wiki page][wiki-scallion] for more information on the Tor plug-in and its memory requirements.
 
@@ -66,7 +66,7 @@ Shadow Design Webcast
 
 See the following webcast for more information about Shadow's design, and for an explanation of some experiments that utilize this unique architecture. Checkout [the about page](/about) for our Shadow research publications.
 
-{% youtube Tb7m8OdpD8A %}
+<iframe width="420" height="315" src="http://www.youtube-nocookie.com/embed/Tb7m8OdpD8A" frameborder="0" allowfullscreen></iframe>
 
 [tor]: https://www.torproject.org/
 [tormetrics]: https://metrics.torproject.org/

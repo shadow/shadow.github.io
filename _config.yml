@@ -1,3 +1,4 @@
 name: Shadow
 tagline: real applications, simulated networks
 pygments: true
+markdown: redcarpet
