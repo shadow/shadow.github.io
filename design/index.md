@@ -25,6 +25,8 @@ What are Plug-ins?
 
 Plug-ins are library shims that are linked to real applications. Shadow dynamically loads these libraries to natively execute the application code. Shadow intercepts and re-routes a selective set of system calls to enable seamless integration of an application to the simulated environment. In this way, the application may be unaware that it is running in the simulator and will function as if it was running in a standard UNIX environment.
 
+Visit [this page on the wiki][wiki-custom-plugin] for more information about how to write your own custom Shadow plug-in.
+
 What is Scallion?
 -----------------
 
@@ -73,4 +75,5 @@ See the following webcast for more information about Shadow's design, and for an
 [torsource]: https://gitweb.torproject.org/tor.git
 [wiki-ec2]: https://github.com/shadow/shadow/wiki/Running-Shadow-on-EC2
 [wiki-scallion]: https://github.com/shadow/shadow/wiki/Using-the-scallion-plug-in
+[wiki-custom-plugin]: https://github.com/shadow/shadow/wiki/Writing-Custom-Plug-ins
 [youtube-shadow-design]: http://youtu.be/Tb7m8OdpD8A
