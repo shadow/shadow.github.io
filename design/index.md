@@ -49,6 +49,12 @@ Discrete Time Events
 
 Shadow creates several bootstrapping events after extracting the information from the supplied XML blueprint file. Each of these events are executed at a discrete time instant during the experiment. Each of these bootstrapping events will cause the virtual nodes to start executing the specified software, which in turn will spawn additional events for Shadow to process. Shadow tracks the time each virtual node spends processing inside the application, and delays events according to the node's configured virtual CPU speed. Events are continuously executed until the simulation end time.
 
+As applications send data to each other, Shadow packages that data into an internal type and transfers the pointer between various queues. This process involves the use of the main Shadow event queue to transfer the packet events between virtual nodes, and rate-limiting to ensure each node has the desired bandwidth capacity. The following image, courtesy of Steven Murdoch, may help visualize this process:
+
+<a href="/assets/shadow_packet_flow.pdf"><img title="shadow_packet_flow" src="/assets/shadow_packet_flow.png" alt="" width="520" /></a>
+
+_End-to-end application data flows through Shadow socket and interface buffers, while the discrete event queue facilitates the transfer of data between virtual nodes._
+
 Node Management
 ===============
 
