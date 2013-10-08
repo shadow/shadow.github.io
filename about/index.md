@@ -16,6 +16,12 @@ Shadow was developed because there was a recognized need for an accurate, effici
 
 Although originally written with Tor experimentation in mind, Shadow is also useful for researching or prototyping other distributed or peer-to-peer systems.
 
+Shadow Users
+------------
+
+University of Minnesota, [Hopper Research Lab](http://www-users.cs.umn.edu/~hopper/)  
+U.S. Naval Research Laboratory, [Center for High Assurance Computer Systems](http://www.nrl.navy.mil/itd/chacs/5543)  
+
 Papers
 ------
 
