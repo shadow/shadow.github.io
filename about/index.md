@@ -19,7 +19,9 @@ Although originally written with Tor experimentation in mind, Shadow is also use
 Users
 -----
 
-University of Minnesota, [Hopper Research Lab](https://www-users.cs.umn.edu/~hopper/)  
+[The Tor Project](https://www.torproject.org/)
+University of Cambridge Computer Laboratory, [Security Group](https://www.cl.cam.ac.uk/research/security)
+University of Minnesota, [Security Group](https://www-users.cs.umn.edu/~hopper/)  
 U.S. Naval Research Laboratory, [Center for High Assurance Computer Systems](https://www.nrl.navy.mil/itd/chacs/5543)  
 
 _Mail shadow-support-owner at cs.umn.edu to be included in the user list._
