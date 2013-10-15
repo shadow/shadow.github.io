@@ -7,8 +7,8 @@ tags: website users
 
 Hello Shadow users!
 
-I would like to build a list of Shadow's users (organizations/projects and/or individuals) to add to the "User" section of the Shadow "about" webpage. Some examples can be found here:
-http://shadow.github.io/about/
+I would like to build a list of Shadow's users (organizations/projects and/or individuals) to add to the "User" section of the Shadow "about" webpage. Some examples can be found here:  
+[http://shadow.github.io/about/](http://shadow.github.io/about/)
 
 If you are a Shadow user and are willing to identify yourself as such, please email shadow-support-owner at cs.umn.edu with the following information:
 
