@@ -19,10 +19,13 @@ Although originally written with Tor experimentation in mind, Shadow is also use
 Users
 -----
 
-[The Tor Project](https://www.torproject.org/)  
-University of Cambridge Computer Laboratory, [Security Group](https://www.cl.cam.ac.uk/research/security)  
-University of Minnesota, [Security Group](https://www-users.cs.umn.edu/~hopper/)  
-U.S. Naval Research Laboratory, [Center for High Assurance Computer Systems](https://www.nrl.navy.mil/itd/chacs/5543)  
++ [The Tor Project, Inc.](https://www.torproject.org/)
++ University of Cambridge Computer Laboratory  
+  _[Security Group](https://www.cl.cam.ac.uk/research/security), led by [Steven Murdoch](https://www.cl.cam.ac.uk/~sjm217/)_
++ University of Minnesota  
+  _Security Group, led by [Nicholas Hopper](https://www-users.cs.umn.edu/~hopper/)_
++ U.S. Naval Research Laboratory  
+  _[Center for High Assurance Computer Systems](https://www.nrl.navy.mil/itd/chacs/5543), [Rob Jansen](http://cs.umn.edu/~jansen)_
 
 _Mail shadow-support-owner at cs.umn.edu to be included in the user list._
 
@@ -36,5 +39,5 @@ Papers
 People
 ------
 
-[Rob Jansen](http://cs.umn.edu/~jansen) , [John Geddes](http://cs.umn.edu/~geddes) , [Nicholas Hopper](http://cs.umn.edu/~hopper) 
+[Rob Jansen](http://cs.umn.edu/~jansen) , [John Geddes](http://cs.umn.edu/~geddes) , [Nicholas Hopper](https://www-users.cs.umn.edu/~hopper/) 
 
