@@ -19,11 +19,18 @@ Although originally written with Tor experimentation in mind, Shadow is also use
 Users
 -----
 
++ Georgetown University  
+  _[SecurityLab](https://security.cs.georgetown.edu/), [Micah Sherr](https://security.cs.georgetown.edu/~msherr)_
++ KU Leuven  
+  _[Computer Security and Industrial Cryptography](http://www.esat.kuleuven.be/cosic/), [Claudia Diaz](http://homes.esat.kuleuven.be/~cdiaz/)_
++
 + [The Tor Project, Inc.](https://www.torproject.org/)
 + University of Cambridge Computer Laboratory  
-  _[Security Group](https://www.cl.cam.ac.uk/research/security), led by [Steven Murdoch](https://www.cl.cam.ac.uk/~sjm217/)_
+  _[Security Group](https://www.cl.cam.ac.uk/research/security), [Steven Murdoch](https://www.cl.cam.ac.uk/~sjm217/)_
++ University of Illinois at Urbana-Champaign  
+  _Hatswitch Group, [Nikita Borisov](https://hatswitch.org/~nikita)_
 + University of Minnesota  
-  _Security Group, led by [Nicholas Hopper](https://www-users.cs.umn.edu/~hopper/)_
+  _Security Group, [Nicholas Hopper](https://www-users.cs.umn.edu/~hopper/)_
 + U.S. Naval Research Laboratory  
   _[Center for High Assurance Computer Systems](https://www.nrl.navy.mil/itd/chacs/5543), [Rob Jansen](http://cs.umn.edu/~jansen)_
 
