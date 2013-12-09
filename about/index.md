@@ -22,7 +22,7 @@ Users
 + Georgetown University  
   _[SecurityLab](https://security.cs.georgetown.edu/), [Micah Sherr](https://security.cs.georgetown.edu/~msherr)_
 + KU Leuven  
-  _[Computer Security and Industrial Cryptography](http://www.esat.kuleuven.be/cosic/), [Claudia Diaz](http://homes.esat.kuleuven.be/~cdiaz/)_
+  _[COSIC](http://www.esat.kuleuven.be/cosic/), [Claudia Diaz](http://homes.esat.kuleuven.be/~cdiaz/)_
 + [The Tor Project, Inc.](https://www.torproject.org/)
 + University of Cambridge Computer Laboratory  
   _[Security Group](https://www.cl.cam.ac.uk/research/security), [Steven Murdoch](https://www.cl.cam.ac.uk/~sjm217/)_
