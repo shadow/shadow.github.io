@@ -16,31 +16,25 @@ Shadow was developed because there was a recognized need for an accurate, effici
 
 Although originally written with Tor experimentation in mind, Shadow is also useful for researching or prototyping other distributed or peer-to-peer systems.
 
-Users
------
+Groups Using Shadow
+-------------------
 
-+ Georgetown University  
-  _[SecurityLab](https://security.cs.georgetown.edu/), [Micah Sherr](https://security.cs.georgetown.edu/~msherr)_
-+ KU Leuven  
-  _[COSIC](http://www.esat.kuleuven.be/cosic/), [Claudia Diaz](http://homes.esat.kuleuven.be/~cdiaz/)_
++ Georgetown University, _[SecurityLab](https://security.cs.georgetown.edu/), [Micah Sherr](https://security.cs.georgetown.edu/~msherr)_
++ KU Leuven, _[COSIC](http://www.esat.kuleuven.be/cosic/), [Claudia Diaz](http://homes.esat.kuleuven.be/~cdiaz/)_
 + [The Tor Project, Inc.](https://www.torproject.org/)
-+ University of Cambridge Computer Laboratory  
-  _[Security Group](https://www.cl.cam.ac.uk/research/security), [Steven Murdoch](https://www.cl.cam.ac.uk/~sjm217/)_
-+ University of Illinois at Urbana-Champaign  
-  _Hatswitch Group, [Nikita Borisov](https://hatswitch.org/~nikita)_
-+ University of Minnesota  
-  _Security Group, [Nicholas Hopper](https://www-users.cs.umn.edu/~hopper/)_
-+ U.S. Naval Research Laboratory  
-  _[Center for High Assurance Computer Systems](https://www.nrl.navy.mil/itd/chacs/5543), [Rob Jansen](http://cs.umn.edu/~jansen)_
++ University of Cambridge Computer Laboratory, _[Security Group](https://www.cl.cam.ac.uk/research/security), [Steven Murdoch](https://www.cl.cam.ac.uk/~sjm217/)_
++ University of Illinois at Urbana-Champaign, _Hatswitch Group, [Nikita Borisov](https://hatswitch.org/~nikita)_
++ University of Minnesota, _Security Group, [Nicholas Hopper](https://www-users.cs.umn.edu/~hopper/)_
++ U.S. Naval Research Laboratory, _[Center for High Assurance Computer Systems](https://www.nrl.navy.mil/itd/chacs/5543), [Rob Jansen](http://cs.umn.edu/~jansen)_
 
 _Mail shadow-support-owner at cs.umn.edu to be included in the user list._
 
 Papers
 ------
 
-&#x20;<strong>Rob Jansen</strong> and Nicholas Hopper. "<a onclick="javascript: _gaq.push(['_trackPageview', '/downloads/shadow-ndss2012.pdf']);" href="http://www-users.cs.umn.edu/~jansen/papers/shadow-ndss2012.pdf">Shadow: Running Tor in a Box for Accurate and Efficient Experimentation</a>," <span style="font-style: italic;">Symposium on Network and Distributed System Security (NDSS),</span> 2012. Also available as <a onclick="javascript: _gaq.push(['_trackPageview', '/downloads/shadow-umntr11-020.pdf']);" href="http://www.cs.umn.edu/tech_reports_upload/tr2011/11-020.pdf">UMN Tech Report 11-020</a>.
+&#x20;Rob Jansen and Nicholas Hopper. "<a onclick="javascript: _gaq.push(['_trackPageview', '/downloads/shadow-ndss2012.pdf']);" href="http://www-users.cs.umn.edu/~jansen/papers/shadow-ndss2012.pdf">Shadow: Running Tor in a Box for Accurate and Efficient Experimentation</a>," <span style="font-style: italic;">Symposium on Network and Distributed System Security (NDSS),</span> 2012. Also available as <a onclick="javascript: _gaq.push(['_trackPageview', '/downloads/shadow-umntr11-020.pdf']);" href="http://www.cs.umn.edu/tech_reports_upload/tr2011/11-020.pdf">UMN Tech Report 11-020</a>.
 
-&#x20;<strong>Rob Jansen</strong>, Kevin Bauer, Nicholas Hopper, and Roger Dingledine. "<a onclick="javascript: _gaq.push(['_trackPageview', '/downloads/tormodel-cset2012.pdf']);" href="http://www-users.cs.umn.edu/~jansen/papers/tormodel-cset2012.pdf">Methodically Modeling the Tor Network</a>," <span style="font-style: italic;">Workshop on Cyber Security Experimentation and Test (CSET)</span>, 2012. \[<a href="http://www-users.cs.umn.edu/~jansen/papers/tormodel_shadow.tar.gz">TorModel files for Shadow</a>\] \[<a href="http://www-users.cs.umn.edu/~jansen/papers/tormodel_exptor.tar.gz">TorModel files for ExperimenTor</a>\]
+&#x20;Rob Jansen, Kevin Bauer, Nicholas Hopper, and Roger Dingledine. "<a onclick="javascript: _gaq.push(['_trackPageview', '/downloads/tormodel-cset2012.pdf']);" href="http://www-users.cs.umn.edu/~jansen/papers/tormodel-cset2012.pdf">Methodically Modeling the Tor Network</a>," <span style="font-style: italic;">Workshop on Cyber Security Experimentation and Test (CSET)</span>, 2012. \[<a href="http://www-users.cs.umn.edu/~jansen/papers/tormodel_shadow.tar.gz">TorModel files for Shadow</a>\] \[<a href="http://www-users.cs.umn.edu/~jansen/papers/tormodel_exptor.tar.gz">TorModel files for ExperimenTor</a>\]
 
 People
 ------

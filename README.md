@@ -10,3 +10,4 @@ gem install jekyll redcarpet
 jekyll serve --watch --trace
 ```
 
+Then point a browser to http://localhost:4000.
