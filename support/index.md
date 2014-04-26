@@ -7,7 +7,7 @@ General email support:
 
 [shadow-support@cs.umn.edu][supportmail] \[[subscribe][supportsubscribe]\] \[[browse archives][supportarchives]\]
 
-Development email support:
+Development discussion (members only):
 
 [shadow-dev@cs.umn.edu][devmail] \[[subscribe][devsubscribe]\] \[[browse archives][devarchives]\]
 

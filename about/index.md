@@ -25,19 +25,19 @@ Groups Using Shadow
 + University of Cambridge Computer Laboratory, _[Security Group](https://www.cl.cam.ac.uk/research/security), [Steven Murdoch](https://www.cl.cam.ac.uk/~sjm217/)_
 + University of Illinois at Urbana-Champaign, _Hatswitch Group, [Nikita Borisov](https://hatswitch.org/~nikita)_
 + University of Minnesota, _Security Group, [Nicholas Hopper](https://www-users.cs.umn.edu/~hopper/)_
-+ U.S. Naval Research Laboratory, _[Center for High Assurance Computer Systems](https://www.nrl.navy.mil/itd/chacs/5543), [Rob Jansen](http://cs.umn.edu/~jansen)_
++ U.S. Naval Research Laboratory, _[Center for High Assurance Computer Systems](https://www.nrl.navy.mil/itd/chacs/5543), [Rob Jansen](http://www.robgjansen.com)_
 
 _Mail shadow-support-owner at cs.umn.edu to be included in the user list._
 
 Papers
 ------
 
-&#x20;Rob Jansen and Nicholas Hopper. "<a onclick="javascript: _gaq.push(['_trackPageview', '/downloads/shadow-ndss2012.pdf']);" href="http://www-users.cs.umn.edu/~jansen/papers/shadow-ndss2012.pdf">Shadow: Running Tor in a Box for Accurate and Efficient Experimentation</a>," <span style="font-style: italic;">Symposium on Network and Distributed System Security (NDSS),</span> 2012. Also available as <a onclick="javascript: _gaq.push(['_trackPageview', '/downloads/shadow-umntr11-020.pdf']);" href="http://www.cs.umn.edu/tech_reports_upload/tr2011/11-020.pdf">UMN Tech Report 11-020</a>.
+&#x20;Rob Jansen and Nicholas Hopper. "<a onclick="javascript: _gaq.push(['_trackPageview', '/downloads/shadow-ndss2012.pdf']);" href="http://www.robgjansen.com/publications/shadow-ndss2012.pdf">Shadow: Running Tor in a Box for Accurate and Efficient Experimentation</a>," <span style="font-style: italic;">Symposium on Network and Distributed System Security (NDSS),</span> 2012.
 
-&#x20;Rob Jansen, Kevin Bauer, Nicholas Hopper, and Roger Dingledine. "<a onclick="javascript: _gaq.push(['_trackPageview', '/downloads/tormodel-cset2012.pdf']);" href="http://www-users.cs.umn.edu/~jansen/papers/tormodel-cset2012.pdf">Methodically Modeling the Tor Network</a>," <span style="font-style: italic;">Workshop on Cyber Security Experimentation and Test (CSET)</span>, 2012. \[<a href="http://www-users.cs.umn.edu/~jansen/papers/tormodel_shadow.tar.gz">TorModel files for Shadow</a>\] \[<a href="http://www-users.cs.umn.edu/~jansen/papers/tormodel_exptor.tar.gz">TorModel files for ExperimenTor</a>\]
+&#x20;Rob Jansen, Kevin Bauer, Nicholas Hopper, and Roger Dingledine. "<a onclick="javascript: _gaq.push(['_trackPageview', '/downloads/tormodel-cset2012.pdf']);" href="http://www.robgjansen.com/publications/tormodel-cset2012.pdf">Methodically Modeling the Tor Network</a>," <span style="font-style: italic;">Workshop on Cyber Security Experimentation and Test (CSET)</span>, 2012. <br/>\[<a href="http://www-users.cs.umn.edu/~jansen/papers/tormodel_shadow.tar.gz">TorModel files for Shadow</a>\] \[<a href="http://www-users.cs.umn.edu/~jansen/papers/tormodel_exptor.tar.gz">TorModel files for ExperimenTor</a>\]
 
 People
 ------
 
-[Rob Jansen](http://cs.umn.edu/~jansen) , [John Geddes](http://cs.umn.edu/~geddes) , [Nicholas Hopper](https://www-users.cs.umn.edu/~hopper/) 
+[Rob Jansen](http://www.robgjansen.com) , [John Geddes](http://cs.umn.edu/~geddes) , [Nicholas Hopper](https://www-users.cs.umn.edu/~hopper/) 
 
