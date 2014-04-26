@@ -23,8 +23,8 @@ Stable Releases
 Older Versions
 ==============
 
-[Shadow v1.9.0][shadow-v1.9.0]
-[Shadow v1.8.0][shadow-v1.8.0]
+[Shadow v1.9.0][shadow-v1.9.0]  
+[Shadow v1.8.0][shadow-v1.8.0]  
 [Shadow v1.7.0][shadow-v1.7.0]  
 [Shadow v1.6.1][shadow-v1.6.1]  
 [Shadow v1.6.0][shadow-v1.6.0] \[[sig][shadow-v1.6.0-sig]\]  
