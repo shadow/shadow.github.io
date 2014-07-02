@@ -15,7 +15,7 @@ Stable Releases
 ===============
 
 [Shadow v1.9.2][shadow-v1.9.2] &raquo; _latest, 1 May 2014_ \[[setup instructions][pcsetup]\]  
-<a href="https://github.com/shadow/shadow/archive/shadow-v1.9.2.tar.gz"><img title="download latest stable release from github" src="/assets/shadow-download-button.png" /></a>
+<a href="https://github.com/shadow/shadow/archive/v1.9.2.tar.gz"><img title="download latest stable release from github" src="/assets/shadow-download-button.png" /></a>
 
 [Shadow v1.9.2 on Ubuntu 12.04 LTS][ec2-3]  &raquo; _latest, 3 May 2014_ \[[setup instructions][ec2setup]\]  
 <a href="https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-0f70c366"><img title="launch elastic compute cloud image" src="/assets/ec2-download-button.png" /></a>
@@ -51,12 +51,12 @@ EC2 images:
 [ec2-2]: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-0f70c366
 [ec2-1]: https://console.aws.amazon.com/ec2/home?region=us-east-1#launchAmi=ami-9b9447f2
 
-[shadow-v1.9.2]: https://github.com/shadow/shadow/archive/shadow-v1.9.2.tar.gz
-[shadow-v1.9.1]: https://github.com/shadow/shadow/archive/shadow-v1.9.1.tar.gz
-[shadow-v1.9.0]: https://github.com/shadow/shadow/archive/shadow-v1.9.0.tar.gz
-[shadow-v1.8.0]: https://github.com/shadow/shadow/archive/shadow-v1.8.0.tar.gz
-[shadow-v1.7.0]: https://github.com/shadow/shadow/archive/shadow-v1.7.0.tar.gz
-[shadow-v1.6.1]: https://github.com/shadow/shadow/archive/shadow-v1.6.1.tar.gz
+[shadow-v1.9.2]: https://github.com/shadow/shadow/archive/v1.9.2.tar.gz
+[shadow-v1.9.1]: https://github.com/shadow/shadow/archive/v1.9.1.tar.gz
+[shadow-v1.9.0]: https://github.com/shadow/shadow/archive/v1.9.0.tar.gz
+[shadow-v1.8.0]: https://github.com/shadow/shadow/archive/v1.8.0.tar.gz
+[shadow-v1.7.0]: https://github.com/shadow/shadow/archive/v1.7.0.tar.gz
+[shadow-v1.6.1]: https://github.com/shadow/shadow/archive/v1.6.1.tar.gz
 [shadow-v1.6.0]: https://github.com/downloads/shadow/shadow/shadow-v1.6.0.tar.gz
 [shadow-v1.6.0-sig]: https://github.com/downloads/shadow/shadow/shadow-v1.6.0.tar.gz.asc
 [shadow-v1.5.1]: https://github.com/downloads/shadow/shadow/shadow-v1.5.1.tar.gz
