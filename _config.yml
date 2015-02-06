@@ -9,13 +9,12 @@ url: "https://shadow.github.io/"
 markdown: kramdown
 
 colors:  #in hex code if not noted else
-  primary: "#00b3fe" #"#F70031" 
-  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
-  secondary: "#384452" #"#33004D"
-  link: "#428bca"
-  link_hover: "#01b2fe"
+  primary: "#2b5c70"
+  secondary: "#1c212b"
+  link: "#60c1c4"
+  link_hover: "#d5f5eb"
   footer_heading: "#ffffff"
-  footer_content: "#bfc9d3"
+  footer_content: "#2b5c70"
 
 # Users information
 users:

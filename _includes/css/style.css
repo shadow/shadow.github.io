@@ -283,14 +283,12 @@ a:focus {
 	height:100%;
 	width:100%;
 	background-color:{{ site.colors.primary }};
-	background-color:rgba({{ site.colors.primary_rgb }},.9);
 	text-align:center;
 }
 
 /* Testimonials Wrap */
 #twrapback {
     background-color: {{ site.colors.primary }};
-    background-color:rgba({{ site.colors.primary_rgb }},.8);
     position: absolute;
     top: 0;
     left: 0;
@@ -299,13 +297,10 @@ a:focus {
 }
 
 #twrap {
-    background: url(../img/t-back.jpg) no-repeat center top;
     position: relative;
     margin-top: 0px;
 	padding-top:60px;
 	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
 	min-height: 450px;
 	width: 100%;
 	
@@ -405,71 +400,4 @@ csmall {
 
 .badge-theme {
 	background: {{ site.colors.primary }};
-}
-
-/* Contact Page */
-#contactwrap {
-	background: url(../img/contact.jpg) no-repeat center top;
-	margin-top: -60px;
-	padding-top:0px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 400px;
-	width: 100%;
-	
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-/* Blog Page */
-.popular-posts { 
-	margin: 0px;
-	padding-left: 0px;
-	}
-	
-.popular-posts li {
-	list-style: none; 
-	margin-bottom: 20px; 
-	min-height: 70px;
-}
-.popular-posts li a, 
-.popular-posts li a:hover {
-	color:#2f2f2f; 
-	text-decoration: none;
-	}
-	
-.popular-posts li img {
-	float: left; 
-	margin-right: 20px;
-	}
-	
-.popular-posts li em {
-	font-family: 'Lato', sans-serif;
-	font-size: 12px;
-	color: #b3b3b3
-	}
-
-.popular-posts p {
-	line-height: normal;
-	margin-bottom: auto;
-}	
-
-.share i {
-	padding-right: 15px;
-	font-size: 18px;
-}
-
-a.anchor{
-    display: block; 
-    position: relative; 
-    top: -80px; 
-    visibility: hidden;
 }
