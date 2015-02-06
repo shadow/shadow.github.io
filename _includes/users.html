@@ -1,0 +1,13 @@
+<div id="cwrap">
+    <div class="container">
+        <div class="row centered">
+            <h3>Shadow Users</h3>
+            <p>Shadow is used by groups at the following institutions:</p>
+            {% for user in site.users %}
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                    <a href="{{ user.url }}"><img src="{{ "/assets/img/" | prepend: site.baseurl }}{{ user.img }}" class="img-responsive"></a>
+                </div>
+            {% endfor %}
+        </div><! --/row -->
+    </div><! --/container -->
+</div><! --/cwrap -->

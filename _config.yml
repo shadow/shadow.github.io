@@ -1,4 +1,43 @@
-name: Shadow
-tagline: real applications, simulated networks
-pygments: true
-markdown: redcarpet
+# Site settings
+title: "Shadow"
+tagline: "real applications, simulated networks"
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "https://shadow.github.io/"
+
+# Build settings
+markdown: kramdown
+
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" #"#F70031" 
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.  
+  secondary: "#384452" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+
+# Users information
+users:
+  - name: georgetown
+    url: https://security.cs.georgetown.edu/
+    img: georgetown.png
+  - name: kuleuven
+    url: http://www.esat.kuleuven.be/cosic/
+    img: kuleuven.png
+  - name: tor
+    url: https://www.torproject.org/
+    img: tor.jpg
+  - name: cambridge
+    url: https://www.cl.cam.ac.uk/research/security
+    img: cambridge.gif
+  - name: uiuc
+    url: http://hatswitch.org/~nikita
+    img: uiuc.gif
+  - name: umn
+    url: https://www-users.cs.umn.edu/~hopper/
+    img: umn.jpg
+  - name: nrl
+    url: https://www.nrl.navy.mil/itd/chacs/5543
+    img: nrl.png
+    

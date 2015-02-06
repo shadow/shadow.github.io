@@ -1,6 +1,0 @@
-<div class="nametag">
-  <div class="name">{{ site.name }}</div>
-  <div class="tagline">{{ site.tagline }}</div>
-</div>
-<div class="logo"><img title="Shadow Logo" src="/assets/shadow.png" alt="" width="130"/></div>
-<div class="clear"></div>

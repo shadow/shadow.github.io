@@ -7,7 +7,7 @@ To development it locally:
 
 ```bash
 gem install jekyll redcarpet
-jekyll serve --watch --trace
+jekyll --server --auto
 ```
 
 Then point a browser to http://localhost:4000.
