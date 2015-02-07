@@ -2,8 +2,8 @@
 title: "Shadow"
 tagline: "real applications, simulated networks"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/" #important: start with /
-url: "https://shadow.github.io"
+baseurl: "" #important: start with /
+url: "https://shadow.github.io/"
 
 # Build settings
 markdown: kramdown
