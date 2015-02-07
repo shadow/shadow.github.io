@@ -107,6 +107,7 @@ a:focus {
 
 .navbar-logo {
     float: right;
+	padding-left: 15px;
 }
 
 .navbar-buttons {
