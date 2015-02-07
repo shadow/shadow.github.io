@@ -18,25 +18,31 @@ colors:  #in hex code if not noted else
 
 # Users information
 users:
-  - name: georgetown
-    url: https://security.cs.georgetown.edu/
-    img: georgetown.png
-  - name: kuleuven
-    url: http://www.esat.kuleuven.be/cosic/
-    img: kuleuven.png
-  - name: tor
-    url: https://www.torproject.org/
-    img: tor.jpg
-  - name: cambridge
-    url: https://www.cl.cam.ac.uk/research/security
-    img: cambridge.gif
-  - name: uiuc
-    url: http://hatswitch.org/~nikita
-    img: uiuc.gif
-  - name: umn
-    url: https://www-users.cs.umn.edu/~hopper/
-    img: umn.jpg
   - name: nrl
-    url: https://www.nrl.navy.mil/itd/chacs/5543
     img: nrl.png
+    url: https://www.nrl.navy.mil/itd/chacs/5543
+  - name: umn
+    img: umn.jpg
+    url: https://www-users.cs.umn.edu/~hopper/
+  - name: georgetown
+    img: georgetown.png
+    url: https://security.cs.georgetown.edu/
+  - name: kuleuven
+    img: kuleuven.png
+    url: http://www.esat.kuleuven.be/cosic/
+  - name: tor
+    img: tor.jpg
+    url: https://www.torproject.org/
+  - name: cambridge
+    img: cambridge.gif
+    url: https://www.cl.cam.ac.uk/research/security
+  - name: uiuc
+    img: uiuc.gif
+    url: http://hatswitch.org/~nikita
+  - name: tudarmstadt
+    img: tudarmstadt.png
+    url: 
+  - name: wesleyan
+    img: wesleyan.gif
+    url: 
     

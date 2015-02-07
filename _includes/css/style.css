@@ -229,8 +229,8 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 80px;
+	margin-bottom: 60px;
 }
 
 #service i {
@@ -331,12 +331,8 @@ a:focus {
 #cwrap {
 	background: #f7f7f7;
 	margin-top: 0px;
-	padding-top: 80px;
-	padding-bottom: 100px;
-}
-
-#cwrap h3 {
-	margin-bottom: 60px;
+	padding-top: 60px;
+	padding-bottom: 80px;
 }
 
 /* Footer */
