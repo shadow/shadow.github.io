@@ -23,27 +23,27 @@ users:
     img: nrl.png
     url: https://www.nrl.navy.mil/itd/chacs/5543
   - name: umn
-    img: umn.jpg
+    img: umn.png
     url: https://www-users.cs.umn.edu/~hopper/
   - name: georgetown
-    img: georgetown.png
+    img: gu.png
     url: https://security.cs.georgetown.edu/
   - name: kuleuven
-    img: kuleuven.png
+    img: kul.png
     url: http://www.esat.kuleuven.be/cosic/
   - name: tor
-    img: tor.jpg
+    img: tor.png
     url: https://www.torproject.org/
   - name: cambridge
-    img: cambridge.gif
+    img: cambridge.png
     url: https://www.cl.cam.ac.uk/research/security
   - name: uiuc
-    img: uiuc.gif
+    img: uiuc.png
     url: http://hatswitch.org/~nikita
   - name: tudarmstadt
-    img: tudarmstadt.png
+    img: tud.png
     url: 
   - name: wesleyan
-    img: wesleyan.gif
+    img: wesleyan.png
     url: 
     
