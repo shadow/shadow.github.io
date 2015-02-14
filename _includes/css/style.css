@@ -90,6 +90,10 @@ a:focus {
 	margin-bottom: 0px;
 }
 
+.navbarwrap {
+    min-width: 600px;
+}
+
 .navbar-brand {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 900;
@@ -178,7 +182,7 @@ a:focus {
 #headerwrap {
 	background-color: {{ site.colors.primary }};
 	min-height: 550px;
-	padding-top: 100px;
+	padding-top: 120px;
 	padding-bottom: 0px;
 	text-align: center;
 }
