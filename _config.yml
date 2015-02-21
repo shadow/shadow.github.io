@@ -1,7 +1,8 @@
 # Site settings
 title: "Shadow"
 tagline: "real applications, simulated networks"
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+#Google analytics code in the format XX-nnnnnnnn-n
+analytics: UA-18979348-4
 baseurl: "" #important: start with /
 url: "https://shadow.github.io/"
 description: "Shadow is a unique discrete-event network simulator that runs real applications like Tor, and distributed systems of thousands of nodes on a single machine. Shadow combines the accuracy of emulation with the efficiency and control of simulation, achieving the best of both approaches."
