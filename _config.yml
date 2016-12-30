@@ -47,4 +47,6 @@ users:
   - name: wesleyan
     img: wesleyan.png
     url: http://ndanner.web.wesleyan.edu/
-    
+  - name: princeton
+    img: pu.png
+    url: https://www.princeton.edu/~pmittal/    
