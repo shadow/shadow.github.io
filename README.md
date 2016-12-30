@@ -6,7 +6,10 @@ This repository holds the Shadow project website.
 To development it locally:
 
 ```bash
-gem install jekyll redcarpet
-jekyll serve watch
+gem install bundler
+bundle install
+bundle exec jekyll serve
 ```
+
 Then point a browser to http://localhost:4000.
+
