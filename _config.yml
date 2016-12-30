@@ -8,15 +8,13 @@ url: "https://shadow.github.io/"
 description: "Shadow is a unique discrete-event network simulator that runs real applications like Tor, and distributed systems of thousands of nodes on a single machine. Shadow combines the accuracy of emulation with the efficiency and control of simulation, achieving the best of both approaches."
 
 # Build settings
+# note - for custom colors, see assets/css/style.scss
 markdown: kramdown
 
-colors:  #in hex code if not noted else
-  primary: "#2b5c70"
-  secondary: "#1c212b"
-  link: "#60c1c4"
-  link_hover: "#d5f5eb"
-  footer_heading: "#ffffff"
-  footer_content: "#2b5c70"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
 
 # Users information
 users:
@@ -43,11 +41,10 @@ users:
     url: http://hatswitch.org/~nikita
   - name: tudarmstadt
     img: tud.png
-    url: 
+    url:
   - name: wesleyan
     img: wesleyan.png
     url: http://ndanner.web.wesleyan.edu/
   - name: princeton
     img: pu.png
     url: https://www.princeton.edu/~pmittal/
-
