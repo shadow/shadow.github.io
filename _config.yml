@@ -48,3 +48,9 @@ users:
   - name: princeton
     img: pu.png
     url: https://www.princeton.edu/~pmittal/
+  - name: columbia
+    img: columbia.png
+    url: https://www.cs.columbia.edu/~smb/
+  - name: waterloo
+    img: waterloo.png
+    url: https://cs.uwaterloo.ca/~iang/
