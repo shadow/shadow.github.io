@@ -54,3 +54,6 @@ users:
   - name: waterloo
     img: waterloo.png
     url: https://cs.uwaterloo.ca/~iang/
+  - name: rit
+    img: rit.png
+    url: https://sites.google.com/site/matthewkwright/
