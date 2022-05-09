@@ -1,5 +1,345 @@
----
-layout: index
-title: The Shadow Simulator
-permalink: /
----
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>The Shadow Network Simulator</title>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+  <script defer src="assets/fontawesome/js/all.min.js"></script>
+  <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+  <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body data-spy="scroll">
+  <!-- ******HEADER****** -->
+  <header id="header" class="header">
+    <div class="container">
+      <h1 class="logo float-left">
+        <a class="scrollto" href="#hero">
+          <img title="Shadow Logo" src="assets/img/shadow-transparent.svg" width="50" />
+          Shadow
+        </a>
+      </h1>
+      <nav id="main-nav" class="main-nav navbar-expand-md float-right" role="navigation">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="nav-item sr-only"><a class="nav-link scrollto" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link scrollto" href="#research">Research</a></li>
+            <li class="nav-item last"><a class="nav-link scrollto" href="#development">Development</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ******HERO****** -->
+  <section id="hero" class="hero section offset-header">
+    <div class="container text-center">
+      <h2 class="title">Shadow<span class="highlight"></span></h2>
+      <p class="intro">real applications, simulated networks</p>
+      <div class="btns">
+        <a class="btn btn-cta-primary" href="https://shadow.github.io/docs/guide">Get Started</a>
+        <a class="btn btn-cta-secondary" href="https://github.com/shadow/shadow">Github</a>
+      </div>
+      <ul class="meta list-inline">
+        <li class="list-inline-item"><a href="https://github.com/shadow/shadow/releases/latest">Latest Release</a></li>
+        <li class="list-inline-item"><a href="https://github.com/shadow/shadow/releases">All Releases</a></li>
+      </ul>
+    </div>
+
+    <div class="social-media">
+      <div class="social-media-inner container text-center">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><a class="github-button" href="https://github.com/shadow/shadow/fork"
+              data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-repo-forked"
+              data-show-count="true" aria-label="Fork shadow/shadow on GitHub">Fork</a></li>
+          <li class="list-inline-item"><a class="github-button" href="https://github.com/shadow/shadow/archive/HEAD.zip"
+              data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-download"
+              aria-label="Download shadow/shadow on GitHub">Download</a></li>
+          <li class="list-inline-item"><a class="github-button" href="https://github.com/shadow/shadow"
+              data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-star"
+              data-show-count="true" aria-label="Star shadow/shadow on GitHub">Star</a></li>
+          <li class="list-inline-item"><a class="github-button" href="https://github.com/shadow/shadow/subscription"
+              data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-eye"
+              data-show-count="true" aria-label="Watch shadow/shadow on GitHub">Watch</a></li>
+          <li class="list-inline-item"><a class="github-button" href="https://github.com/shadow/shadow/issues"
+              data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-issue-opened"
+              data-show-count="true" aria-label="Issue shadow/shadow on GitHub">Issue</a></li>
+          <li class="list-inline-item"><a class="github-button" href="https://github.com/shadow/shadow/discussions"
+              data-color-scheme="no-preference: dark; light: light; dark: dark;" data-icon="octicon-comment-discussion"
+              aria-label="Discuss shadow/shadow on GitHub">Discuss</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ******ABOUT****** -->
+  <section id="about" class="light section">
+    <div class="container">
+      <h2 class="title text-center">What is Shadow?</h2>
+      <p class="intro text-center">
+        Shadow is a scientific experimentation tool that simplifies research,
+        development, testing, and evaluation of real networked applications by
+        connecting them through an internally simulated distributed network.
+      </p>
+
+      <div class="row">
+        <div class="item col-lg-6 col-md-6 col-12">
+          <div class="icon-holder">
+            <i class="fas fa-code-branch"></i><!--fa-sync-->
+          </div>
+          <div class="content">
+            <h3 class="sub-title">Rapid Prototyping</h3>
+            <p>
+              Quickly develop your network research prototypes (e.g., a
+              performance enhancing algorithm or protocol) without committing
+              the time and effort that would be required to produce
+              production-quality code.
+            </p>
+          </div>
+        </div>
+        <div class="item col-lg-6 col-md-6 col-12">
+          <div class="icon-holder">
+            <i class="fas fa-bug"></i>
+          </div>
+          <div class="content">
+            <h3 class="sub-title">Testing and Debugging</h3>
+            <p>
+              Run large and diverse test networks to exercise complex corner
+              cases and improve test coverage. Run multiple versions of your
+              code to test interoperability. Shadow simulations are
+              deterministic, so bugs are identically reproduced by re-running
+              the simulation.
+            </p>
+          </div>
+        </div>
+        <div class="item col-lg-6 col-md-6 col-12">
+          <div class="icon-holder">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <div class="content">
+            <h3 class="sub-title">Flexible Evaluations</h3>
+            <p>
+              Immediately deploy thousands of network application processes
+              using a customizable network topology. Evaluate network
+              performance, tune parameters, and gain confidence in your
+              experiments, results, and code before deploying to a live network.
+            </p>
+          </div>
+        </div>
+        <div class="item col-lg-6 col-md-6 col-12">
+          <div class="icon-holder">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="content">
+            <h3 class="sub-title">Safety and Privacy</h3>
+            <p>
+              Shadow simulations are completely private and segregated from the
+              Internet, providing an environment in which you can safely run
+              network experiments with absolutely no privacy risks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ******FEATURES****** -->
+  <section id="features" class="dark section">
+    <div class="container">
+      <h2 class="title text-center">How does Shadow work?</h2>
+      <p class="intro text-center">
+        <!-- <span><img title="Shadow Logo" src="assets/img/shadow-transparent.svg" width="200"></span><br /> -->
+        Shadow directly executes real applications as native Linux processes and
+        connects them through a simulated network, enabling you to simulate
+        distributed systems with thousands of nodes in realistic and scalable
+        private network experiments using your laptop, desktop, or server
+        running Linux.
+      </p>
+
+      <div class="row">
+        <div class="item col-lg-4 col-md-12 col-12">
+          <div class="content">
+            <h3 class="sub-title">Real Applications</h3>
+            <p>
+              Shadow directly executes real, unmodified application binaries
+              natively in Linux as standard OS processes and co-opts them into a
+              discrete-event simulation.
+            </p>
+          </div>
+        </div>
+        <div class="item col-lg-4 col-md-12 col-12">
+          <div class="content">
+            <h3 class="sub-title">Simulated Networks</h3>
+            <p>
+              Shadow intercepts and emulates system calls made by the co-opted
+              processes, connecting them through an internal network using
+              simulated implementations of common network protocols (e.g., TCP
+              and UDP). <!--Network topology and routing characteristics (e.g.,
+              latency and packet loss) are configured using a standard network
+              graph.-->
+            </p>
+          </div>
+        </div>
+        <div class="item col-lg-4 col-md-12 col-12">
+          <div class="content">
+            <h3 class="sub-title">High Performance</h3>
+            <p>
+              Shadow focuses on high performance simulation, efficiently
+              simulating both small client/server networks and large distributed
+              systems. Shadow has been used to simulate real-world peer-to-peer
+              networks such as Tor and Bitcoin.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ******RESEARCH****** -->
+  <section id="research" class="light section">
+    <div class="container">
+
+        <h2 class="title text-center">Grounded in Research</h2>
+        <p class="intro text-center">
+          Shadow is a research product with more than <a href="https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12341442653770148265">180 citations</a> in the academic literature.
+        </p>
+        <div class="row">
+          <div class="item col-lg-6 col-md-6 col-12">
+            <div class="content">
+              <h3 class="sub-title">Original Design Publication</h3>
+              <p>
+                "Shadow: Running Tor in a Box for Accurate and Efficient Experimentation"
+                by <a href="https://www.robgjansen.com">Rob Jansen</a>
+                and <a href="https://www-users.cs.umn.edu/~hopper">Nicholas Hopper</a>
+                in the <a href="https://www.ndss-symposium.org/ndss2012/ndss-2012-programme/shadow-running-tor-box-accurate-and-efficient-experimentation/">Symposium on Network and Distributed System Security</a>, 2012.
+              </p>
+              <div class="btns">
+                <a class="btn btn-cta-primary-light" href="https://www.ndss-symposium.org/wp-content/uploads/2017/09/09_3.pdf">Read Article</a>
+                <a class="btn btn-cta-secondary-light" href="https://www.ndss-symposium.org/ndss2012/ndss-2012-programme/shadow-running-tor-box-accurate-and-efficient-experimentation/">View Media</a>
+              </div>
+            </div>
+          </div>
+          <div class="item col-lg-6 col-md-6 col-12">
+            <div class="content">
+              <h3 class="sub-title">Latest Design Publication</h3>
+              <p>
+                "Co-opting Linux Processes for High Performance Network Simulation"
+                by <a href="https://www.robgjansen.com">Rob Jansen</a>,
+                <a href="">Jim Newsome</a>,
+                and <a href="https://ryanwails.com/">Ryan Wails</a>
+                in the <a href="https://www.usenix.org/conference/atc22">USENIX Annual Technical Conference</a>, 2022.
+              </p>
+              <div class="btns">
+                <a class="btn btn-cta-secondary-light" href="">Content Coming Soon!</a>
+                <!--
+                <a class="btn btn-cta-primary" href="">Download PDF</a>
+                <a class="btn btn-cta-secondary" href="">View Media</a>
+                -->
+              </div>
+          </div>
+        </div>
+
+
+    </div>
+  </section>
+
+  <!-- ******CONTACT****** -->
+  <section id="development" class="bright section">
+    <div class="container">
+      <h2 class="title text-center">Open Source Development</h2>
+
+      <p class="intro text-center">
+        Shadow is 100% open-source software, written primarily in 
+        <a href="https://shadow.github.io/docs/rust">Rust</a> and C.
+      </p>
+
+      <div class="row">
+        <div class="item col-lg-4 col-md-4 col-12">
+          <div class="icon-holder text-center">
+            <a href="https://github.com/shadow/shadow">
+            <i class="fas fa-code-branch fa-5x"></i><!--fa-sync-->
+            </a>
+          </div>
+          <br/>
+          <div class="content">
+            <a href="https://github.com/shadow/shadow">
+            <h4 class="sub-title text-center">Fork on Github</h4>
+            </a>
+          </div>
+        </div>
+        <div class="item col-lg-4 col-md-4 col-12">
+          <div class="icon-holder text-center">
+            <a href="https://shadow.github.io/docs/guide">
+            <i class="fas fa-file-alt fa-5x"></i>
+            </a>
+          </div>
+          <br/>
+          <div class="content">
+            <a href="https://shadow.github.io/docs/guide">
+            <h4 class="sub-title text-center">Read the User Guide</h4>
+            </a>
+          </div>
+        </div>
+        <div class="item col-lg-4 col-md-4 col-12">
+          <div class="icon-holder text-center">
+            <a href="https://github.com/shadow/shadow/discussions">
+            <i class="fas fa-question-circle fa-5x"></i>
+            </a>
+          </div>
+          <br/>
+          <div class="content">
+            <a href="https://github.com/shadow/shadow/discussions">
+            <h4 class="sub-title text-center">Ask Questions</h4>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ******FOOTER****** -->
+  <footer class="footer">
+    <div class="container text-center">
+      <small class="copyright">Created by <a href="https://github.com/orgs/shadow/people">the Shadow team</a>,
+        inspired by the <a href="https://getbootstrap.com">Bootstrap</a> template theme
+        by <a href="https://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a>.</small>
+    </div>
+  </footer>
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="assets/plugins/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
