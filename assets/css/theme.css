@@ -329,6 +329,13 @@ a.btn-cta-secondary-light:hover, .btn-cta-secondary-light:hover {
   margin-top: 15px;
 }
 
+/* ======= Research Section ======= */
+
+.research .btns .btn {
+  margin-right: 15px;
+  font-size: 18px;
+  padding: 8px 30px;
+}
 
 /* ======= Light-Colored Section ======= */
 .light {
@@ -473,6 +480,15 @@ a.btn-cta-secondary-light:hover, .btn-cta-secondary-light:hover {
 
 .footer a {
   color: var(--light);
+}
+
+@media (max-width: 1200px) {
+  .research .btns .btn {
+    margin-right: 0;
+    clear: both;
+    display: block;
+    margin-bottom: 15px;
+  }
 }
 
 @media (max-width: 767px) {
